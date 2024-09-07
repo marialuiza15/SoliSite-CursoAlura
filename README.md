@@ -1,6 +1,8 @@
 # SoliSite - Conectando Programação e Solidariedade
 Uma plataforma que conecta programadores a ONGs, transformando código em impacto social. Ajude a criar sites para causas que inspiram!
 
+<img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> 
+
 ![logocompleta-removebg-preview](https://github.com/user-attachments/assets/9bb7822b-aff7-4912-a5bf-3c76329b645f)
 
 ## Sobre o Projeto
@@ -20,10 +22,10 @@ No arquivo **Imersao_Aula-Google.zip**  há 17 arquivos e 1 pasta, contendo 9 im
 * visualizacao.html - stylevisualizacao.css - jsvisualizacao.js
 * ver.html - stylever.css
 
-| <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" /> | <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" />  | <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />  
+ 
 
 Autora: Maria Luiza - Desenvolvedora :computer:
-| <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />    
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />    
 
 
 
