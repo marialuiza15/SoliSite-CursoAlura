@@ -22,7 +22,7 @@ No arquivo **Imersao_Alura-Google.zip**  há 17 arquivos e 1 pasta, contendo 9 i
 * visualizacao.html - stylevisualizacao.css - jsvisualizacao.js
 * ver.html - stylever.css
 
- 
+ Acesse a page do site em: https://marialuiza15.github.io/SoliSite-CursoAlura/
 
 Autora: Maria Luiza - Desenvolvedora :computer:
 
