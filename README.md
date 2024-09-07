@@ -4,7 +4,7 @@ Uma plataforma que conecta programadores a ONGs, transformando código em impact
 ![logocompleta-removebg-preview](https://github.com/user-attachments/assets/9bb7822b-aff7-4912-a5bf-3c76329b645f)
 
 ## Sobre o Projeto
-SoliSite foi desenvolvido durante a imersão em desenvolvimento da Alura com o Google Gemini. A missão é conectar programadores com paixões e habilidades diversas a ONGs que precisam de ajuda para criar seus sites e propagar suas causas.
+SoliSite foi desenvolvido durante a imersão em desenvolvimento da Alura com o Google Gemini. O objetivo é conectar programadores com paixões e habilidades diversas a ONGs que precisam de ajuda para criar seus sites e promover suas causas.
 
 ## Tecnologias Utilizadas
 * **Frontend:** HTML, CSS
