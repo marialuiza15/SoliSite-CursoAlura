@@ -12,6 +12,14 @@ SoliSite foi desenvolvido durante a imersão em desenvolvimento da Alura com o G
 * **Ilustrações e logotipo:** Canva
 * **IA auxiliar:** Google Gemini
 
+## Organização
+No arquivo Imersao_Aula-Google.zip  há 17 arquivos e 1 página contendo 9 imagens de logos ilustrativas. Os arquivos principais se dividem da seguinte forma:
+* index.html - style.cc
+* sobre.html - stylesobre.css
+* cadastrar.html - stylecadastrar.css - jscadastrar.js
+* visualizacao.html - stylevisualizacao.css - jsvisualizacao.js
+* ver.html - stylever.css 
+
 Autora: Maria Luiza - Desenvolvedora
 
 Observação: a página de visualização das ONGS cadastradas é meramente ilustrativa com informações ficticias.
