@@ -10,6 +10,7 @@ SoliSite foi desenvolvido durante a imersão em desenvolvimento da Alura com o G
 * **Frontend:** HTML, CSS
 * **Backend:** Javascript
 * **Ilustrações e logotipo:** Canva
+* **IA auxiliar:** Google Gemini
 
 Autora: Maria Luiza - Desenvolvedora
 
