@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="shortcut icon" href="logopng.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylecadastrar.css">
+</head>
+<body>
+    <div class="maior"> 
+        <nav>
+            <a href="index.html">
+                <img src="logosimbolo.png" class="logo" alt="Logo">
+              </a>
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cadastrar.html">Cadastrar ONG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ver.html">Ver ONG's</a>
+                </li>
+              </ul>
+        </nav>
+        <div class="container">
+            <div class="form-image">
+                <img src="imagem.png" alt="Imagem de ONG">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre sua ONG</h1>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label>Nome da ONG</label>
+                            <input type="text" name="nome" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label>CNPJ da ONG</label>
+                            <input type="text" name="cnpj">
+                        </div>
+
+                        <div class="input-box">
+                            <label>Área de atuação</label>
+                            <input type="text" name="area" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label>Responsável pela ONG</label>
+                            <input type="text" name="responsavel" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail para contato</label>
+                            <input id="email" type="email" name="email" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="instaONG">Instagram da ONG</label>
+                            <input id="instaONG" type="text" name="instaONG">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="faceONG">Facebook da ONG</label>
+                            <input id="faceONG" type="text" name="faceONG">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="descricao">Descrição da atuação da sua ONG:</label>
+                            <div class="textarea-container">
+                                <textarea id="descricao" name="descricao" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="logo">Envie o logotipo da sua ONG:</label>
+                            <input type="file" id="logo" name="logo" accept="image/*">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Cadastrar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="jscadastrar.js"></script>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma plataforma que conecta programadores a ONGs para a criação de sites que fazem a diferença.</p>
+                
+            </div>
+            <div class="footer-section">
+                <h2>Desenvolvedora</h2>
+                <p>Maria Luiza Lima Bastos</p>
+                <p>Email: marialuiza15lb@gmail.com</p>
+                <p>Linkedin: https://www.linkedin.com/in/maria-luiza-96584b262/</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SoliSite. Todos os direitos reservados.</p>
+            <p>Este site é o resultado final do projeto de conclusão do curso Imersão Dev com Gemini, da Alura com o Google Gemini.</p>
+        </div>
+
+</body>
+</html>
+

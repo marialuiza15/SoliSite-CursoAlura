@@ -1,0 +1,246 @@
+/* Paleta de cores e variáveis */
+:root {
+    --primary-color: #333;
+    --secondary-color: #dcc600;
+    --background-color: #ffffff;
+    --input-bg-color: #dcc60042;
+    --text-color: #000;
+    --link-color: #333;
+}
+
+/* Reset e fontes */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Estilo da área maior */
+.maior {
+    width: 100%;
+    min-height: 10vh;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navegação */
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+/* Container e layout flexível */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-top: -80px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .form-image,
+    .form {
+        width: 100%;
+    }
+
+    .form-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .form {
+        padding: 2rem 1rem;
+    }
+}
+
+/* Conteúdo do formulário */
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input,
+.textarea-container textarea {
+    background-color: var(--input-bg-color);
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+}
+
+/* Textarea */
+.textarea-container {
+    width: 100%;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.textarea-container textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Estilos para o Footer */
+.footer {
+    margin-top: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}

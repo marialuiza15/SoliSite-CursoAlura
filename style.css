@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.maior {
+    width: 100%;
+    min-height: 10vh;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+} 
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+
+.sol {
+    width: 1500px;
+    height: 1500px;
+    background-color: #dcc60050;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -300px;
+    right: -700px;
+    z-index: -1;
+}
+
+.btn {
+    display: block; /* Faz com que cada botão ocupe uma linha */
+    width: 100%; /* Ajusta a largura dos botões para preencher o container */
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #000000;
+    background-color: #dcc600;
+    font-size: 15px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    text-align: center; /* Alinha o texto no centro do botão */
+    margin: 10px 0; /* Adiciona espaçamento vertical entre os botões */
+}
+
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: #222;
+}
+
+.content p {
+    margin: 10px 0 30px;
+    color: #333;
+}
+
+.content .btn {
+    padding: 15px 80px;
+    font-size: 20px;
+}
+
+.img {
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .maior {
+        padding: 10px 5%;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 12px 60px;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content .btn {
+        padding: 10px 50px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* Estilos para o Footer */
+.footer {
+    margin-top: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
