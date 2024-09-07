@@ -13,4 +13,4 @@ SoliSite foi desenvolvido durante a imersão em desenvolvimento da Alura com o G
 
 Autora: Maria Luiza - Desenvolvedora
 
-
+Observação: a página de visualização das ONGS cadastradas é meramente ilustrativa com informações ficticias.
