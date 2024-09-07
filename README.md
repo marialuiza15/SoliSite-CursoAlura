@@ -18,8 +18,10 @@ No arquivo **Imersao_Aula-Google.zip**  há 17 arquivos e 1 pasta, contendo 9 im
 * sobre.html - stylesobre.css
 * cadastrar.html - stylecadastrar.css - jscadastrar.js
 * visualizacao.html - stylevisualizacao.css - jsvisualizacao.js
-* ver.html - stylever.css 
+* ver.html - stylever.css
 
-Autora: Maria Luiza - Desenvolvedora
+
+
+:computer:Autora: Maria Luiza - Desenvolvedora
 
 Observação: a página de visualização das ONGS cadastradas é meramente ilustrativa com informações ficticias.
