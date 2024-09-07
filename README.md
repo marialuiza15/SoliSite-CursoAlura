@@ -22,6 +22,9 @@ No arquivo **Imersao_Aula-Google.zip**  há 17 arquivos e 1 pasta, contendo 9 im
 
 
 
-:computer:Autora: Maria Luiza - Desenvolvedora
+Autora: Maria Luiza - Desenvolvedora :computer:
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=LINK_GIT)](LINK_GIT)
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link= LINK_LINKEDIN)]( LINK_LINKEDIN)
 
 Observação: a página de visualização das ONGS cadastradas é meramente ilustrativa com informações ficticias.
