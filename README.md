@@ -15,7 +15,7 @@ SoliSite foi desenvolvido durante a imersão em desenvolvimento da Alura com o G
 * **IA auxiliar:** Google Gemini
 
 ## Organização
-No arquivo **Imersao_Aula-Google.zip**  há 17 arquivos e 1 pasta, contendo 9 imagens de logos ilustrativas. Os arquivos principais se dividem na seguinte forma:
+No arquivo **Imersao_Alura-Google.zip**  há 17 arquivos e 1 pasta, contendo 9 imagens de logos ilustrativas. Os arquivos principais se dividem na seguinte forma:
 * index.html - style.cc
 * sobre.html - stylesobre.css
 * cadastrar.html - stylecadastrar.css - jscadastrar.js
